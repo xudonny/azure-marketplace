@@ -46,6 +46,7 @@
       },
       "kind": "Storage",
       "properties": {
+        "supportsHttpsTrafficOnly": true
       },
       "tags": {
         "provider": "[toUpper(parameters('elasticTags').provider)]"
