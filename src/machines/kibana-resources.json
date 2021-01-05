@@ -99,20 +99,7 @@
       },
       "properties": {
         "securityRules": [
-          {
-            "name": "SSH",
-            "properties": {
-              "description": "Allows inbound SSH traffic from anyone",
-              "protocol": "Tcp",
-              "sourcePortRange": "*",
-              "destinationPortRange": "[parameters('osSettings').managementPort]",
-              "sourceAddressPrefix": "*",
-              "destinationAddressPrefix": "*",
-              "access": "Allow",
-              "priority": 100,
-              "direction": "Inbound"
-            }
-          },
+
           {
             "name": "Kibana",
             "properties": {
